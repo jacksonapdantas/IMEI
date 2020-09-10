@@ -1,0 +1,56 @@
+/*:::::::::Created by: Jackson Dantas::::::::*/
+
+body{
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	/*overflow: hidden;*/
+}
+
+h1,p{
+	text-align: center;
+	text-shadow: 2px 2px black;
+	color: white;
+}
+
+textarea{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 300px;
+	resize: none;
+	border: solid;
+	text-align: left;
+}
+
+footer{
+	background-color: black;
+}
+
+#btnValidar, #btnGerar{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #000;
+	width: 150px;
+	height: 30px;
+	font-size: 18px;
+	border-radius:25px;
+	font-weight: bold;
+}
+
+#txtQTD{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #000;
+	width: 105px;
+	height: 30px;
+	font-size: 18px;
+	border-radius:25px;
+	font-weight: bold;
+	text-align: center;
+}
